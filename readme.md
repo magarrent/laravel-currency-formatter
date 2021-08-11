@@ -32,169 +32,169 @@ Currency::currency("EUR")->format(123456789)    // 123.456.789,00 €
 Available Currencies:
 
 ```
-- AED
-- AFN
-- ALL
-- AMD
-- ANG
-- AOA
-- ARS
-- AUD
-- AWG
-- AZN
-- BAM
-- BBD
-- BDT
-- BGN
-- BHD
-- BIF
-- BMD
-- BND
-- BOB
-- BRL
-- BSD
-- BTC
-- BTN
-- BWP
-- BYR
-- BYN
-- BZD
-- CAD
-- CDF
-- CHF
-- CLP
-- CNY
-- COP
-- CRC
-- CUC
-- CUP
-- CVE
-- CZK
-- DJF
-- DKK
-- DOP
-- DZD
-- EGP
-- ERN
-- ETB
-- EUR
-- FJD
-- FKP
-- GBP
-- GEL
-- GHS
-- GIP
-- GMD
-- GNF
-- GTQ
-- GYD
-- HKD
-- HNL
-- HRK
-- HTG
-- HUF
-- IDR
-- ILS
-- INR
-- IQD
-- IRR
-- ISK
-- JMD
-- JOD
-- JPY
-- KES
-- KGS
-- KHR
-- KMF
-- KPW
-- KRW
-- KWD
-- KYD
-- KZT
-- LAK
-- LBP
-- LKR
-- LRD
-- LSL
-- LYD
-- MAD
-- MDL
-- MGA
-- MKD
-- MMK
-- MNT
-- MOP
-- MRO
-- MTL
-- MUR
-- MVR
-- MWK
-- MXN
-- MYR
-- MZN
-- NAD
-- NGN
-- NIO
-- NOK
-- NPR
-- NZD
-- OMR
-- PAB
-- PEN
-- PGK
-- PHP
-- PKR
-- PLN
-- PYG
-- QAR
-- RON
-- RSD
-- RUB
-- RWF
-- SAR
-- SBD
-- SCR
-- SDD
-- SDG
-- SEK
-- SGD
-- SHP
-- SLL
-- SOS
-- SRD
-- STD
-- SVC
-- SYP
-- SZL
-- THB
-- TJS
-- TMT
-- TND
-- TOP
-- TRY
-- TTD
-- TVD
-- TWD
-- TZS
-- UAH
-- UGX
-- USD
-- UYU
-- UZS
-- VEB
-- VEF
-- VND
-- VUV
-- WST
-- XAF
-- XCD
-- XBT
-- XOF
-- XPF
-- YER
-- ZAR
-- ZMW
-- WON
+AED | د.إ.‏
+AFN | ؋
+ALL | Lek
+AMD | ֏
+ANG | ƒ
+AOA | Kz
+ARS | $
+AUD | $
+AWG | ƒ
+AZN | ₼
+BAM | КМ
+BBD | $
+BDT | ৳
+BGN | лв.
+BHD | د.ب.‏
+BIF | FBu
+BMD | $
+BND | $
+BOB | Bs
+BRL | R$
+BSD | $
+BTC | Ƀ
+BTN | Nu.
+BWP | P
+BYR | р.
+BYN | р.
+BZD | BZ$
+CAD | $
+CDF | FC
+CHF | CHF
+CLP | $
+CNY | ¥
+COP | $
+CRC | ₡
+CUC | CUC
+CUP | $MN
+CVE | $
+CZK | Kč
+DJF | Fdj
+DKK | kr.
+DOP | RD$
+DZD | د.ج.‏
+EGP | ج.م.‏
+ERN | Nfk
+ETB | ETB
+EUR | €
+FJD | $
+FKP | £
+GBP | £
+GEL | GEL
+GHS | ₵
+GIP | £
+GMD | D
+GNF | FG
+GTQ | Q
+GYD | $
+HKD | HK$
+HNL | L.
+HRK | kn
+HTG | G
+HUF | Ft
+IDR | Rp
+ILS | ₪
+INR | ₹
+IQD | د.ع.‏
+IRR | ﷼
+ISK | kr.
+JMD | J$
+JOD | د.ا.‏
+JPY | ¥
+KES | KSh
+KGS | сом
+KHR | ៛
+KMF | CF
+KPW | ₩
+KRW | ₩
+KWD | د.ك.‏
+KYD | $
+KZT | ₸
+LAK | ₭
+LBP | ل.ل.‏
+LKR | ₨
+LRD | $
+LSL | M
+LYD | د.ل.‏
+MAD | د.م.‏
+MDL | lei
+MGA | Ar
+MKD | ден.
+MMK | K
+MNT | ₮
+MOP | MOP$
+MRO | UM
+MTL | ₤
+MUR | ₨
+MVR | MVR
+MWK | MK
+MXN | $
+MYR | RM
+MZN | MT
+NAD | $
+NGN | ₦
+NIO | C$
+NOK | kr
+NPR | ₨
+NZD | $
+OMR | ﷼
+PAB | B/.
+PEN | S/.
+PGK | K
+PHP | ₱
+PKR | ₨
+PLN | zł
+PYG | ₲
+QAR | ﷼
+RON | L
+RSD | Дин.
+RUB | ₽
+RWF | RWF
+SAR | ﷼
+SBD | $
+SCR | ₨
+SDD | LSd
+SDG | £‏
+SEK | kr
+SGD | $
+SHP | £
+SLL | Le
+SOS | S
+SRD | $
+STD | Db
+SVC | ₡
+SYP | £
+SZL | E
+THB | ฿
+TJS | TJS
+TMT | m
+TND | د.ت.‏
+TOP | T$
+TRY | ₺
+TTD | TT$
+TVD | $
+TWD | NT$
+TZS | TSh
+UAH | ₴
+UGX | USh
+USD | $
+UYU | $U
+UZS | сўм
+VEB | Bs.
+VEF | Bs. F.
+VND | ₫
+VUV | VT
+WST | WS$
+XAF | F
+XCD | $
+XBT | Ƀ
+XOF | F
+XPF | F
+YER | ﷼
+ZAR | R
+ZMW | ZK
+WON | ₩
 ```
 
 ## Contributing
