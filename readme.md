@@ -29,16 +29,185 @@ Currency::currency("USD")->format(123456789)    // $123,456,789.00
 Currency::currency("EUR")->format(123456789)    // 123.456.789,00 €
 ```
 
+Available Currencies:
+
+```
+- AED
+- AFN
+- ALL
+- AMD
+- ANG
+- AOA
+- ARS
+- AUD
+- AWG
+- AZN
+- BAM
+- BBD
+- BDT
+- BGN
+- BHD
+- BIF
+- BMD
+- BND
+- BOB
+- BRL
+- BSD
+- BTC
+- BTN
+- BWP
+- BYR
+- BYN
+- BZD
+- CAD
+- CDF
+- CHF
+- CLP
+- CNY
+- COP
+- CRC
+- CUC
+- CUP
+- CVE
+- CZK
+- DJF
+- DKK
+- DOP
+- DZD
+- EGP
+- ERN
+- ETB
+- EUR
+- FJD
+- FKP
+- GBP
+- GEL
+- GHS
+- GIP
+- GMD
+- GNF
+- GTQ
+- GYD
+- HKD
+- HNL
+- HRK
+- HTG
+- HUF
+- IDR
+- ILS
+- INR
+- IQD
+- IRR
+- ISK
+- JMD
+- JOD
+- JPY
+- KES
+- KGS
+- KHR
+- KMF
+- KPW
+- KRW
+- KWD
+- KYD
+- KZT
+- LAK
+- LBP
+- LKR
+- LRD
+- LSL
+- LYD
+- MAD
+- MDL
+- MGA
+- MKD
+- MMK
+- MNT
+- MOP
+- MRO
+- MTL
+- MUR
+- MVR
+- MWK
+- MXN
+- MYR
+- MZN
+- NAD
+- NGN
+- NIO
+- NOK
+- NPR
+- NZD
+- OMR
+- PAB
+- PEN
+- PGK
+- PHP
+- PKR
+- PLN
+- PYG
+- QAR
+- RON
+- RSD
+- RUB
+- RWF
+- SAR
+- SBD
+- SCR
+- SDD
+- SDG
+- SEK
+- SGD
+- SHP
+- SLL
+- SOS
+- SRD
+- STD
+- SVC
+- SYP
+- SZL
+- THB
+- TJS
+- TMT
+- TND
+- TOP
+- TRY
+- TTD
+- TVD
+- TWD
+- TZS
+- UAH
+- UGX
+- USD
+- UYU
+- UZS
+- VEB
+- VEF
+- VND
+- VUV
+- WST
+- XAF
+- XCD
+- XBT
+- XOF
+- XPF
+- YER
+- ZAR
+- ZMW
+- WON
+```
+
 ## Contributing
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
 - [Marc Garcia Torrent (Kodio Technologies)](https://github.com/magarrent)
+- [Soroush Mirzaei - NPM Currency list JSON](https://github.com/smirzaei/currency-formatter)
 - [All Contributors](https://github.com/magarrent/laravel-currency-formatter/contributors)
 
 ## Security
-If you discover any security-related issues, please email magarrent@gmail.com instead of using the issue tracker.
+If you discover any security-related issues, use the issue tracker.
 
 ## License
 The MIT License (MIT). Please see [License File](/LICENSE.md) for more information.
