@@ -14,7 +14,7 @@ Tiny Laravel worldwide currency formatter
 
 ## Usage
 
-```
+```php
 use Magarrent\LaravelCurrencyFormatter\Facades\Currency
 
 Currency::currency("EUR")->format(256)          // 256,00 €
@@ -29,9 +29,14 @@ Currency::currency("USD")->format(123456789)    // $123,456,789.00
 Currency::currency("EUR")->format(123456789)    // 123.456.789,00 €
 ```
 
+**Use custom currency Symbol**
+```php
+Currency::currency("RSD")->setSymbol("Din")->format(123456789)  // 123.456.789,00 Din
+```
+
 Available Currencies:
 
-```
+```bash
 AED - د.إ.‏
 AFN - ؋
 ALL - Lek

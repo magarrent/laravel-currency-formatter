@@ -4,15 +4,15 @@ namespace Magarrent\LaravelCurrencyFormatter;
 
 class Currency {
 
-    private Float $money;
-    private String $currency = 'USD';
     private Array $currencyOptions;
 
-    public function __construct()
-    {
 
-    }
-
+    /**
+     * Select currency: EUR, USD, BTC...
+     *
+     * @param string $currency
+     * @return void
+     */
     public function currency(String $currency = 'USD') {
         $this->currency = $currency;
 
@@ -25,6 +25,13 @@ class Currency {
         return $this;
     }
 
+    /**
+     * Format selected currency
+     *
+     * @param Float $money
+     * @param boolean $zeroDecimals
+     * @return String
+     */
     public function format(Float $money , Bool $zeroDecimals = false): String {
         $format = '';
 
@@ -43,6 +50,12 @@ class Currency {
         }
 
         return $format;
+    }
+
+    public function setSymbol(String $customSymbol) {
+        $this->currencyOptions['symbol'] = $customSymbol;
+
+        return $this;
     }
 
 }
