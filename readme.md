@@ -199,6 +199,7 @@ XPF - F
 YER - ﷼
 ZAR - R
 ZMW - ZK
+ZWL - Z$
 WON - ₩
 ```
 
