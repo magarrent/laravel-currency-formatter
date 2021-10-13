@@ -1459,6 +1459,15 @@ return [
         "spaceBetweenAmountAndSymbol" => false,
         "decimalDigits" => 2
     ],
+    "ZWL" => [
+        "code" => "ZWL",
+        "symbol" => "Z$",
+        "thousandsSeparator" => "",
+        "decimalSeparator" => ".",
+        "symbolOnLeft" => true,
+        "spaceBetweenAmountAndSymbol" => false,
+        "decimalDigits" => 2
+    ],
     "WON" => [
         "code" => "WON",
         "symbol" => "₩",
